@@ -25,7 +25,7 @@ void generate_numbers(int secret[]) {
             secret[i++] = num;
         }
     }
-
+}
 // 玩家輸入與驗證模組
 int get_guess(int guess[]) {
     printf("請輸入三個二位數字，以空格分隔（例如：32 78 99）：");
@@ -42,7 +42,7 @@ int get_guess(int guess[]) {
         }
     }
     return 1;
-
+}
 
 // 比較邏輯與輸出模組
 void compare_numbers(int secret[], int guess[], int* A, int* B, int* C) {
